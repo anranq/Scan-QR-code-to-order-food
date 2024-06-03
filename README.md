@@ -35,95 +35,99 @@
 - 营业额
 - 角色管理
 
-### 后续：
+### 后续及作者联系：
 
-​	因存在商业性，本程序不免费分享。如果想要进一步了解或者体验该程序，请于我取得联系（微信：tarihs    QQ:480549916）备注来意
+​	因存在商业性，本程序不免费分享。如果想要进一步了解或者体验该程序，请于我取得联系（**微信：tarihs  QQ:480549916**）备注来意
+
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/my/wximage.png)
 
 ## 一、主要功能：
 
 - [x] 扫码点餐
 - [x] 用户在线付款
 - [x] 在线预约（可多次预约）
+- [x] 取消预约（职工权限）
 - [x] 在线预约+预约点餐
 - [x] 菜品多计价模式（按斤、按数量、按份）
+- [x] 菜品可在多个分类中
 - [x] 可分包厢与大厅桌
 - [x] 可设置菜品库存（无库存自动显示售空）
 - [x] 可设置上菜状态
 - [x] 可用蓝牙打印机打印菜单
-- [x] 可查看营业额
+- [x] 可查看营业额（有统计菜品出售情况）
 - [x] 用户点餐时共享菜单
+- [x] 可设置菜单以及菜单分类显示优先级
+- [x] 角色管理
+- [x] 独立库存系统（可用于记录进出货）
+- [x] 职工可直接结账
+- [x] 职工可删除订单
+- [x] 可生成餐桌码
 - [ ] 分店
+- [ ] 优惠卷
 
 ## 二、开发介绍
 
 - 前端：uniapp
 - 后端：springboot
 
-## 三、部分界面截图
+## 三、在线体验小程序
+
+提示：
+
+1. 因为要给你们体验各种权限(默认超管权限)，所以开了个体验版小程序，由于微信限制所以需要通过申请才可以体验，我收到申请会第一时间通过，有其他问题请留言给我或添加我的联系方式。
+
+2. 因为在线点餐共享菜单只存在于普通用户之间，职工和超管身份也不需要共享菜单，如果需要体验请自行改身份为**普通用户**
+
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/ouE-N68irFtGfgtmTuzEVXnI5tZs.jpg)
+
+## 四、部分界面截图
 
 #### 1.首页
 
-
-
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/68f66a12-3841-420f-993f-8fb5e0ae739d)
-
-
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240603234342438.png)
 
 #### 2.点餐页面
 
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/22.png)
 
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/23.png)
 
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/d3fa6275-e6ab-4e15-abaf-a133a6fe4cb6)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/a0078ffc-e87a-44a2-ac93-8fe291cd6e35)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/fd9154b0-b09c-4478-9bc9-ee550280307e)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/65de80fa-fe48-48df-95d7-c399d95acbed)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/d38aa558-7ee0-4fd5-8c03-6c84df446d8f)
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/24.png)
 
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527013057878.png)
 
-
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527013118680.png)
 
 
 #### 3.买单界面
 
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527013404283.png)
 
-
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/48d85aba-dd2d-4b65-8df9-e05e84b85ee0)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/aa74acf6-a995-4c67-b7ad-100ed38b0a8a)
-
-
-
-
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527013501780.png)
 
 #### 4.我的界面
 
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240603235519455.png)
 
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/768c2b96-25a3-48ad-adff-7c99e81b7fdc)
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240603235444099.png)
 
-
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240603235402550.png)
 
 #### 用户预约界面：
 
-
-
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/e849aec7-6224-46b4-af62-0a34762ea38b)
-
-
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527014852040.png)
 
 #### 预约大厅：
 
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/7736093d-82b1-446c-bac8-085f14a7905e)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/79ec509b-dec9-4580-979a-6213a2aeef9b)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/bdf7a04a-04cb-4dfb-83af-f7fffad78d90)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/41d1c8fd-de36-44e2-822d-edc8efb748b5)
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527014916125.png)
 
-
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527014924779.png)
 
 #### 预约包厢：
 
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527015004647.png)
 
 
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/44e2b77e-aac8-43cd-86e6-3c2ab40c7522)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/e99919f6-34da-4416-83c8-169ce2cfded4)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/8b340290-defa-4ecd-a6ac-488f2651ac4a)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/de878981-a498-48ee-b069-bb13920818fe)
-![Image](https://github.com/users/anranq/projects/3/assets/126095767/9dbde06c-4ca6-4d4b-b195-ace5cad7ea0e)
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240603234933378.png)
+
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240603235058872.png)
