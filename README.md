@@ -98,7 +98,6 @@
 
 ![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527013118680.png)
 
-
 #### 3.买单界面
 
 ![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527013404283.png)
@@ -126,7 +125,6 @@
 #### 预约包厢：
 
 ![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240527015004647.png)
-
 
 ![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/online/images/image-20240603234933378.png)
 
