@@ -41,6 +41,8 @@
 
 ![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/my/wximage.png)
 
+![输入图片说明](https://gitee.com/lotian999/Scan-QR-code-to-order-food/raw/master/my/1717481874006_temp_qrcode_share_9993.png)
+
 ## 一、主要功能：
 
 - [x] 扫码点餐
